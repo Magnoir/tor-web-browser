@@ -10,6 +10,5 @@ export async function launchOnionRouters(n: number) {
   }
 
   const servers = await Promise.all(promises);
-
   return servers;
 }
